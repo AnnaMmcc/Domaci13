@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form>
+			<div class="mainDiv">
+				<div class="toSeparate">
+					<label for="Ime">Ime:</label>
+					<input
+						class="makeBetter"
+						id="Ime"
+						type="text"
+						placeholder="Unesite Vase ime"
+					/>
+				</div>
+				<div class="toSeparate">
+					<label for="adresa">Adresa:</label>
+					<input
+						class="makeBetter"
+						id="adresa"
+						type="text"
+						placeholder="Unesite Vasu adresu"
+					/>
+				</div>
+				<div class="toSeparate">
+					<label for="email">Email:</label>
+					<input
+						class="makeBetter"
+						id="email"
+						type="email"
+						placeholder="Unesite Vas email"
+					/>
+				</div>
+				<div class="toSeparate">
+					<label>Odaberite grad:</label>
+					<select class="dropDownmenu makeBetter">
+						<option disabled selected>Izaberite grad</option>
+						<option>Beograd</option>
+						<option>Novi Sad</option>
+						<option>Nis</option>
+					</select>
+				</div>
+				<div class="toSeparate flexColumn">
+					Odaberite nacin placanja:
+					<label class="container"
+						>Kreditnom karticom
+						<input type="radio" name="radio" />
+						<span class="checkmark"></span>
+					</label>
+
+					<label class="container"
+						>Pouzecem
+						<input type="radio" name="radio" />
+						<span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="toSeparate">
+					<label for="checkboxClick">
+						<input id="checkboxClick" type="checkbox" /> Zelim da primam mejlove
+						sa ponudama
+					</label>
+				</div>
+				<div class="toSeparate">
+					<input class="makeBetter" type="submit" value="Posalji email" />
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
